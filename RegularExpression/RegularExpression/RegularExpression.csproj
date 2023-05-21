@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CountOccurrences.cs" />
     <Compile Include="LettersUnderscore.cs" />
     <Compile Include="MatchString.cs" />
     <Compile Include="Program.cs" />

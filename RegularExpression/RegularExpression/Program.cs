@@ -16,9 +16,11 @@ namespace RegularExpression
             //LettersUnderscore lettersUnderscore = new LettersUnderscore();
             //lettersUnderscore.Letters();
 
-            RegexHtmlTags regexHtml = new RegexHtmlTags();
-            regexHtml.Tags();
+            //RegexHtmlTags regexHtml = new RegexHtmlTags();
+            //regexHtml.Tags();
 
+            CountOccurrences occurrences = new CountOccurrences();
+            occurrences.Occurrences();
             Console.ReadLine();
         }
     }
