@@ -22,8 +22,11 @@ namespace RegularExpression
             //CountOccurrences occurrences = new CountOccurrences();
             //occurrences.Occurrences();
 
-            ValidFile valid = new ValidFile();
-            valid.File();
+            //ValidFile valid = new ValidFile();
+            //valid.File();
+
+            Website website = new Website();
+            website.ValidWebsite();
 
             Console.ReadLine();
         }
