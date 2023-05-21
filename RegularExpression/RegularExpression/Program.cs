@@ -19,8 +19,12 @@ namespace RegularExpression
             //RegexHtmlTags regexHtml = new RegexHtmlTags();
             //regexHtml.Tags();
 
-            CountOccurrences occurrences = new CountOccurrences();
-            occurrences.Occurrences();
+            //CountOccurrences occurrences = new CountOccurrences();
+            //occurrences.Occurrences();
+
+            ValidFile valid = new ValidFile();
+            valid.File();
+
             Console.ReadLine();
         }
     }
